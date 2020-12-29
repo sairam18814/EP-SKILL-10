@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <title>REGISTRATION FORM</title>
+  </head>
+  <style>
+    div {text-align: center;}
+    body {
+     background-color:orangered;
+    }
+    h1{
+    color:blueviolet;
+    }
+    td{
+    color:red;
+    }
+  </style>
+  <body>
+    <form method=post>
+      <table align="center">
+        <h1 text align="center">REGISTRATION FORM</h1>
+        <tr>
+        <td>Name</td>
+        <td><input type="text"name="st name"></td>
+        </tr>
+        <br>
+        <tr><td>RegNo</td>	<td><input type="text" name="reg no"><br></td></tr>
+        <tr><td>Email</td>	<td><input type="text" name="Email"><br></td></tr>
+        <tr><td>Favourite Game:</td> <td><input type="checkbox" name="game">cricket<input type="checkbox" name="game">FootBall</td></tr><br>
+        <tr><td>Gender:</td>	<td><input type="radio" name="Gender">Male <input type="radio" name="Gender">Female</td></tr><br>
+        <div><label for="psw"><b>Favourite subject</b></label>
+            <select name="subject" id="subject">
+            <option value="" selected="selected">JAVA</option>
+           <option value="" selected="selected">C++</option>
+         <option value="" selected="selected">C</option>
+         <option value="" selected="selected">PYTHON</option>
+          </select>
+        </div>
+        <tr><td>Address</td>	<td><textarea><input type="text" name"Address"></textarea><br></td></tr>
+        <td><input type="submit" value"Submit"></td></tr>
+      </table>
+    </form>
+  </body>
+</html>
